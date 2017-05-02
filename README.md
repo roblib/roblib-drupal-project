@@ -10,7 +10,7 @@ First [install composer](https://getcomposer.org/doc/00-intro.md#installation-li
 With composer installed you can create the project:
 
 ```
-composer create-project roblib/roblib-drupal-project:8.x-dev some-dir --stability dev --no-interaction
+composer create-project roblib/roblib-drupal-project some-dir --stability dev --no-interaction
 ```
 
 With `composer require` you can download new dependencies for your 
