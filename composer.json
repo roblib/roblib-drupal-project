@@ -1,5 +1,5 @@
 {
-  "name": "roblib/roblib-composer-drupal-template",
+  "name": "roblib/roblib-drupal-project",
   "description": "Roblib project template for Drupal 8 projects with composer",
   "type": "project",
   "license": "GPL-2.0+",
@@ -13,10 +13,6 @@
     {
       "type": "composer",
       "url": "https://packages.drupal.org/8"
-    },
-    {
-      "type": "vcs",
-      "url": "https://github.com/roblib/roblib-drupal-project.git"
     }
   ],
   "require": {

@@ -13,6 +13,12 @@ With composer installed you can create the project:
 composer create-project roblib/roblib-drupal-project some-dir --stability dev --no-interaction
 ```
 
+Or create the project for production environment asking for stable packages at minimum and using --no-dev switch which disables installation of require-dev packages:
+
+```
+composer create-project roblib/roblib-drupal-project some-dir --stability stable --no-dev --no-interaction
+````
+
 With `composer require` you can download new dependencies for your 
 installation.
 
